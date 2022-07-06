@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Orbitron:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Orbitron:wght@500&family=Press+Start+2P&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="https://s.hdnux.com/photos/01/23/54/50/21940750/5/1200x0.jpg">
+            <div class="boxLeft">
+                <div class="textLeft"></div>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="dummyText">
+                <div class="upperText">
+                    <em>Welcome to the online restaurant booking service, where you can book at any restaurant whenever you like!</em>
+                </div>
+                <div class="lowerText">To start booking your next restaurant reservations, fill in the form below!</div>
+            </div>
+            <div class="formSection">
+                <div class="formTitle">Create Your Account!</div>
+                <form action="example.path" method="post">
+                    <div class="row-1">
+                        <div class="firstInput">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" required>
+                        </div>
+                        <div class="secondInput">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" required>
+                        </div>
+                    </div>
+                    <div class="row-2">
+                        <div class="thirdInput">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="fourthInput">
+                            <label for="number">Phone Number</label>
+                            <input type="text" id="number" required>
+                        </div>
+                    </div>
+                    <div class="row-3">
+                        <div class="fifthInput">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" minlength="5" required>
+                        </div>
+                        <div class="sixthInput">
+                            <label for="confirm">Confirm Password</label>
+                            <input type="password" id="confirm"  minlength="5" required>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="under">
+                <div class="button1">
+                    <button type="submit" class="buttonStyle">Create Account</button> 
+
+                </div>
+            </form>
+
+                <div class="account">Already have an account? <a href="#">Log In</a></div>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

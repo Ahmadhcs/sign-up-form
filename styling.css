@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+
+.container{
+    display: flex;
+    overflow: hidden;
+    
+}
+
+
+.left{
+    width: 40%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+img{
+    overflow:hidden;
+}
+
+.boxLeft{
+    top:60px;
+    background-color: grey;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 70px;
+
+    
+}
+
+.textLeft{
+    font-size: 100px;
+    position: absolute;
+}
+
+
+.right{
+    width: 60%;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+
+.upperText{
+    padding-top: 150px;
+    padding-left: 40px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.lowerText{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+
+.formSection{
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 0 5px 25px 0px rgba(0, 0, 0, .25);
+
+}
+
+.formTitle{
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.row-1{
+    display: flex;
+    padding-top: 20px;
+}
+
+.firstInput{
+    padding-left: 40px ;
+    width: 50%;
+}
+
+.secondInput{
+    width: 50%;
+}
+
+.row-2{
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.thirdInput{
+    padding-left: 40px ;
+    width: 50%;
+
+}
+
+.fourthInput{
+    width: 50%;
+    
+}
+
+.row-3{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.fifthInput{
+    padding-left: 40px ;
+    width: 50%;
+
+}
+
+.sixthInput{
+    width: 50%;
+    
+}
+
+input, label {
+    display:block;
+}
+
+
+label{
+    color: #39393A;
+    font-weight: bold;
+}
+
+input[type=text]{
+    width:  200px;
+}
+input[type=email]{
+    width:  200px;
+}
+
+input[type=password]{
+    width:  200px;
+}
+
+
+.button1{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.buttonStyle{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #002500;
+    box-shadow: 0 5px 25px 10px rgba(0, 0, 0, .25);
+    border: none;
+    color:white;
+    width: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.account{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.account a{
+    color:#002500;
+    text-decoration: none;
+    
+
+}
+
+input:focus {
+    border: 2px solid red;
+
+    
+  }
+
+
+.confirmation{
+    border: 2px solid red;
+}
